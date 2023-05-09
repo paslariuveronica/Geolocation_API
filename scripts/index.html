@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AJAX</title>
+    <link rel="stylesheet" href="main.css " />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <h1>XMLHTTPRequest</h1>
+    <form data-search-form>
+      <label for="search">Search for your city:</label>
+      <input type="text" id="search" name="search" />
+      <button type="submit">Search</button>
+    </form>
+    <div class="hidden" data-weather-container>
+      <p>The current weather in <span data-city-name></span> is:</p>
+      <p><span data-temp></span> &deg;C</p>
+      <p><img src="" alt="Weather icon" data-icon /></p>
+    </div>
+  </body>
+</html>
